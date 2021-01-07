@@ -43,7 +43,7 @@ export class NgxScrollToFirstInvalidDirective {
     if (!this.formGroup.valid) {
       NgxScrollToFirstInvalidDirective.markFormGroupTouched(this.formGroup);
 
-      const formControlInvalid = this.el.nativeElement.querySelector('.ng-invalid');
+      const formControlInvalid = this.el.nativeElement.querySelector(':not([formarrayname]).ng-invalid');
 
       if (formControlInvalid) {
         return NgxScrollToFirstInvalidDirective.scrollToElement(formControlInvalid);

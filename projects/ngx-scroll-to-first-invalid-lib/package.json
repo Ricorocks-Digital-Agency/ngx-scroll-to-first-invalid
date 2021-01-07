@@ -1,6 +1,7 @@
 {
-  "name": "@ismaestro/ngx-scroll-to-first-invalid",
-  "version": "3.0.0",
+  "name": "@ricorocks/ngx-scroll-to-first-invalid",
+  "version": "3.0.1",
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "6.x || 7.x || 8.x",
     "@angular/core": "6.x || 7.x || 8.x"
